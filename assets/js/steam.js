@@ -16,6 +16,4 @@ function footnotesSmoothScroll() {
     }
 }
 footnotesSmoothScroll();
-
-// Highlight.js
 hljs.initHighlightingOnLoad();
