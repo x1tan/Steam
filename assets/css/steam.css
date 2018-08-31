@@ -285,6 +285,9 @@ footer {
   margin: 4em 0 0;
   padding: 2em 0;
   text-align: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 footer section {
   font-family: "Open Sans Condensed", sans-serif;
