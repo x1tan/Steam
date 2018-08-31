@@ -216,7 +216,7 @@ blockquote {
   font-weight: 300;
   line-height: 1.2em;
   font-style: italic;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border-left: 0.3em solid rgba(0, 0, 0, 0.05);
   margin-left: 1em;
   padding-right: 1.5em;
