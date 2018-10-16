@@ -18,7 +18,7 @@ function footnotesSmoothScroll() {
 
 function resize_iframes(){
   var frames = document.getElementsByTagName('iframe');
-    for (var i in frames) {
+    for (var i = 0; i < frames.length; i++) {
         frames[i].style.width = "100%";
         frames[i].style.height = "400px";
     }
