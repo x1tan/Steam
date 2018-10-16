@@ -15,5 +15,15 @@ function footnotesSmoothScroll() {
         footnotes[i].setAttribute('data-scroll', '');
     }
 }
+
+function resize_iframes(){
+  var frames = document.getElementByTagName('iframe');
+    for (var i in frames) {
+        i.style.width = "100%";
+        i.style.height = "400px";
+    }
+}
+
 footnotesSmoothScroll();
 hljs.initHighlightingOnLoad();
+document.addEventListener('DOMContentLoaded', resize_iframes());
